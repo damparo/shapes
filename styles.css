@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+
+/* square */
+
+.square {
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+
+/* cross */
+
+.cross {
+  background: red;
+  height: 100px;
+  position: relative;
+  width: 20px;
+  display: none;
+}
+.cross:after {
+  background: red;
+  content: "";
+  height: 20px;
+  left: -40px;
+  position: absolute;
+  top: 40px;
+  width: 100px;
+  /* display: none; */
+}
