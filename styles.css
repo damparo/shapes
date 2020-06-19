@@ -16,7 +16,7 @@
 /* cross */
 
 .cross {
-  background: yellow;
+  background: rgba(255, 255, 0, 0.972);
   height: 100px;
   position: relative;
   width: 20px;
@@ -45,7 +45,7 @@
   .triangle-bottomleft {
     width: 0;
     height: 0;
-    border-bottom: 100px solid red;
+    border-bottom: 100px solid black;
     border-right: 100px solid transparent;
     display: none;
   }

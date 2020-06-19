@@ -63,7 +63,7 @@ redsquare.addEventListener("click", function () {
 
   setTimeout(function () {
     clearInterval(timer4);
-    background.setAttribute("style", "background-color: white");
+    background.setAttribute("style", "background-color: #f5ebf4");
     circle.setAttribute("style", "display:none");
 
     circleOne.setAttribute("style", "display:block");
@@ -73,3 +73,4 @@ redsquare.addEventListener("click", function () {
 
   }, 4000);
 });
+
