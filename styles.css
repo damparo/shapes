@@ -32,3 +32,30 @@
   width: 100px;
   /* display: none; */
 }
+
+.triangle-topright {
+    width: 0;
+    height: 0;
+    border-top: 100px solid red;
+    border-left: 100px solid transparent;
+    display: none;
+  }
+
+
+  .triangle-bottomleft {
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid red;
+    border-right: 100px solid transparent;
+    display: none;
+  }
+
+
+  
+  .circle {
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%;
+    display: none;
+  }
