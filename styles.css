@@ -10,20 +10,20 @@
 .square {
   width: 100px;
   height: 100px;
-  background: red;
+  background: purple;
 }
 
 /* cross */
 
 .cross {
-  background: red;
+  background: yellow;
   height: 100px;
   position: relative;
   width: 20px;
   display: none;
 }
 .cross:after {
-  background: red;
+  background:yellow;
   content: "";
   height: 20px;
   left: -40px;
@@ -53,6 +53,28 @@
 
   
   .circle {
+    width: 100px;
+    height: 100px;
+    background:blue;
+    border-radius: 50%;
+    display: none;
+  }
+
+  .circleOne {
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%;
+    display: none;
+  }
+  .circleTwo {
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%;
+    display: none;
+  }
+  .circleThree {
     width: 100px;
     height: 100px;
     background: red;
