@@ -7,8 +7,8 @@ var circleOne = document.querySelector(".circleOne");
 var circleTwo = document.querySelector(".circleTwo");
 var circleThree = document.querySelector(".circleThree");
 var background =  document.querySelector(".color");
+// var diamond =  document.getElementsByClassName(".expose");
 
-// var timer;
 
 var count = 1;
 
@@ -72,5 +72,17 @@ redsquare.addEventListener("click", function () {
 
 
   }, 4000);
+
+  
 });
 
+
+// circleOne.addEventListener("click", function(){
+//     circleOne.setAttribute("style", "display:none");
+//     circleTwo.setAttribute("style", "display:none");
+//     circleThree.setAttribute("style", "display:none");
+
+//     diamond.setAttribute("style", "display:block");
+    
+
+// })

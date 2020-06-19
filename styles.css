@@ -1,3 +1,7 @@
+.color {
+    background-color: rgb(123, 123, 230);
+}
+
 .container {
   display: flex;
   height: 80vh;
@@ -10,7 +14,7 @@
 .square {
   width: 100px;
   height: 100px;
-  background: purple;
+  background: #f87f6a;
 }
 
 /* cross */
@@ -79,5 +83,28 @@
     height: 100px;
     background: red;
     border-radius: 50%;
+    display: none;
+  }
+
+  
+  .diamond {
+    width: 0;
+    height: 0;
+    border: 50px solid transparent;
+    border-bottom: 70px solid red;
+    position: relative;
+    top: -50px;
+    display: none;
+    
+  }
+  .diamond:after {
+    content: '';
+    position: absolute;
+    left: -50px;
+    top: 70px;
+    width: 0;
+    height: 0;
+    border: 50px solid transparent;
+    border-top: 70px solid red;
     display: none;
   }
